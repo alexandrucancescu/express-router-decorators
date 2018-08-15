@@ -11,7 +11,6 @@ Typescript framework on top of express to ease the declaration of **Routers** an
 * Define simple and complex validations with decorators
 
 ## Install
-TODO
 ```batch
 $ npm install --save alexandrucancescu/express-router-decorators
 ```
