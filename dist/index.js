@@ -5,3 +5,5 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./Controller"));
 __export(require("./Decorators"));
+var Types_1 = require("./Types");
+exports.BodySource = Types_1.BodySource;

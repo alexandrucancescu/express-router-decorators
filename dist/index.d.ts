@@ -1,3 +1,3 @@
 export * from "./Controller";
 export * from "./Decorators";
-export {BodySource} from "./Types"
+export { BodySource } from "./Types";
