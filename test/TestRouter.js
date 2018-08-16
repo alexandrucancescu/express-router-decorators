@@ -14,8 +14,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const index_1 = require("../index");
-let TestRouter = class TestRouter extends index_1.Controller {
+const __1 = require("..");
+const decorators_1 = require("../decorators");
+let TestRouter = class TestRouter extends __1.Controller {
     postPerson(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
             res.json({ ok: true, secret: "trains" });
@@ -26,16 +27,16 @@ let TestRouter = class TestRouter extends index_1.Controller {
     }
 };
 __decorate([
-    index_1.Post("/"),
-    index_1.Validate("name", { type: "string" }),
-    index_1.Validate("age", { type: "number" }),
-    index_1.Validate("locations", { type: "array" })
+    decorators_1.Post("/"),
+    decorators_1.Validate("name", { type: "string" }),
+    decorators_1.Validate("age", { type: "number" }),
+    decorators_1.Validate("locations", { type: "array" })
 ], TestRouter.prototype, "postPerson", null);
 __decorate([
-    index_1.Lock("/"),
-    index_1.Validate("name", { type: "string" })
+    decorators_1.Lock("/"),
+    decorators_1.Validate("name", { type: "string" })
 ], TestRouter.prototype, "lock", null);
 TestRouter = __decorate([
-    index_1.RouterController("/")
+    decorators_1.RouterController("/")
 ], TestRouter);
 exports.default = TestRouter;

@@ -20,7 +20,8 @@ $ npm install --save alexandrucancescu/express-router-decorators
 ## Quick start
 
 ```typescript
-import {Validate,Controller,RouterController,Get,BodySource} from "express-router-decorators"
+import {Controller,BodySource} from "express-router-decorators"
+import {Validate,RouterController,Get} from "express-router-decorators/decorators"
 import * as express from "express"
 import * as http from "http"
 

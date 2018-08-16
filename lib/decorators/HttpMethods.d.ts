@@ -1,5 +1,4 @@
-import { ClassDecorator, FunctionDecorator, ValidateConditions, BodySource } from "./Types";
-export declare function RouterController(route: string): ClassDecorator;
+import { FunctionDecorator } from "../Types";
 export declare type HttpMethodDecorator = (route: string) => FunctionDecorator;
 export declare const Get: HttpMethodDecorator;
 export declare const All: HttpMethodDecorator;
@@ -24,4 +23,3 @@ export declare const Subscribe: HttpMethodDecorator;
 export declare const Trace: HttpMethodDecorator;
 export declare const Unlock: HttpMethodDecorator;
 export declare const Unsubscribe: HttpMethodDecorator;
-export declare function Validate(parameterName: string, conditions: ValidateConditions, source?: BodySource): (target: any, propertyKey: string, descriptor: PropertyDescriptor) => PropertyDescriptor;

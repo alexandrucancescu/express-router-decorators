@@ -1,5 +1,4 @@
-/// <reference types="express" />
-import { Controller } from "../index";
+import { Controller } from "..";
 import { Response, Request, NextFunction } from "express";
 export default class TestRouter extends Controller {
     postPerson(req: Request, res: Response, next: NextFunction): Promise<void>;

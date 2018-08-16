@@ -1,4 +1,3 @@
-/// <reference types="express" />
 import { RequestHandler } from "express";
 export declare type HttpMethod = "get" | "all" | "post" | "put" | "delete" | "patch" | "options" | "head" | "checkout" | "copy" | "lock" | "merge" | "mkactivity" | "mkcol" | "move" | "notify" | "purge" | "report" | "search" | "subscribe" | "trace" | "unlock" | "unsubscribe";
 export declare type ClassDecorator = <T extends Constructor>(constructor: T) => T;
@@ -27,5 +26,5 @@ export declare type PropertyValidatorPair = {
 export declare enum BodySource {
     BODY = "body",
     QUERY = "query",
-    HEADERS = "headers",
+    HEADERS = "headers"
 }

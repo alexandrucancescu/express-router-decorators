@@ -1,4 +1,3 @@
-/// <reference types="express" />
 import { PropertyValidatorPair } from "./Types";
 import { Response } from "express";
 declare function validateAllConditions(propertyValidatorPairs: PropertyValidatorPair[], req: any, res: Response): {

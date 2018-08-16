@@ -3,6 +3,6 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./lib/Controller"));
-var Types_1 = require("./lib/Types");
-exports.BodySource = Types_1.BodySource;
+__export(require("./lib/decorators/HttpMethods"));
+__export(require("./lib/decorators/RouterController"));
+__export(require("./lib/decorators/Validate"));
