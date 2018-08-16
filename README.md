@@ -1,5 +1,7 @@
 # express-router-decorators
 
+[![Build Status](https://travis-ci.org/alexandrucancescu/express-router-decorators.svg?branch=master)](https://travis-ci.org/alexandrucancescu/express-router-decorators)
+
 ## What is it
 
 Typescript framework on top of express to ease the declaration of **Routers** and do validations on requests.
