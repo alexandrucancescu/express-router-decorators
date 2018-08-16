@@ -21,7 +21,7 @@ export declare type ValidateConditions = {
 };
 export declare type PropertyValidatorPair = {
     property: string;
-    source: BodySource;
+    source?: BodySource;
     conditions: ValidateConditions;
 };
 export declare enum BodySource {

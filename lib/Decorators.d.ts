@@ -24,4 +24,4 @@ export declare const Subscribe: HttpMethodDecorator;
 export declare const Trace: HttpMethodDecorator;
 export declare const Unlock: HttpMethodDecorator;
 export declare const Unsubscribe: HttpMethodDecorator;
-export declare function Validate(parameterName: string, conditions: ValidateConditions, source: BodySource): (target: any, propertyKey: string, descriptor: PropertyDescriptor) => PropertyDescriptor;
+export declare function Validate(parameterName: string, conditions: ValidateConditions, source?: BodySource): (target: any, propertyKey: string, descriptor: PropertyDescriptor) => PropertyDescriptor;
