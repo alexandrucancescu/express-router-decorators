@@ -6,6 +6,10 @@
 
 Typescript framework on top of express to ease the declaration of **Routers** and do validations on requests.
 
+##NOTICE
+
+### This is a work in progress. This library is not stable yet.
+
 ## Features
 
 * Define classes as express router controller with decorators
