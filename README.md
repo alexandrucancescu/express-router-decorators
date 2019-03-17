@@ -6,7 +6,7 @@
 
 Typescript framework on top of express to ease the declaration of **Routers** and do validations on requests.
 
-##NOTICE
+## NOTICE
 
 ### This is a work in progress. This library is not stable yet.
 
